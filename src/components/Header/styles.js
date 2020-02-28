@@ -11,12 +11,14 @@ export const Container = styled.View`
 
 export const ContainerLogo = styled.View`
   display: flex;
-  padding-top: 30px;
   align-items: center;
   flex-direction: row;
 `;
 
-export const ContainerNavbar = styled.View``;
+export const ContainerNavbar = styled.View`
+  display: flex;
+  justify-content: center;
+`;
 
 export const ImageLogo = styled.Image`
   width: 80px;
@@ -29,7 +31,6 @@ export const TextLogo = styled.Text`
 `;
 
 export const ImageNavbar = styled.Image`
-  margin-top: 40px;
   margin-right: 5px;
 
   width: 50px;

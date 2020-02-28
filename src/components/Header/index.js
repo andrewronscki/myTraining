@@ -1,8 +1,8 @@
 import React from 'react';
 import { TouchableOpacity} from 'react-native';
 
-import alter from '../../assets/alter.png';
-import navbar from '../../assets/navbar.png';
+import alter from '../../../assets/alter.png';
+import navbar from '../../../assets/navbar.png';
 
 import { Container, ContainerLogo, ContainerNavbar, ImageLogo, TextLogo, ImageNavbar } from './styles';
 

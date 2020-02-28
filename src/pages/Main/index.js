@@ -4,21 +4,22 @@ import Header from '../../components/Header';
 
 import { Container, ContainerItems, Item, TextItem } from './styles';
 
-export default function Main() {
+export default function Main({ navigation }) {
+  
   return (
     <>
       <Header />
       <Container>
         <ContainerItems>
-          <Item onClick={() => {}}><TextItem>Treinos</TextItem></Item>
+          <Item onPress={() => navigation.navigate('Training')}><TextItem>Treinos</TextItem></Item>
         </ContainerItems>
 
         <ContainerItems>
-          <Item onClick={() => {}}><TextItem>Medidas</TextItem></Item>
+          <Item onPress={() => {}}><TextItem>Medidas</TextItem></Item>
         </ContainerItems>
 
         <ContainerItems>
-          <Item onClick={() => {}}><TextItem>Dieta</TextItem></Item>
+          <Item onPress={() => {}}><TextItem>Dieta</TextItem></Item>
         </ContainerItems>
         
        
